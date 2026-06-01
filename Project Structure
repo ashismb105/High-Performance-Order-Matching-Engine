@@ -1,0 +1,42 @@
+springboot-order-matching-engine/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── tradingengine/
+│   │   │           ├── TradingApplication.java
+│   │   │           │
+│   │   │           ├── controller/
+│   │   │           │   └── OrderController.java
+│   │   │           │
+│   │   │           ├── service/
+│   │   │           │   ├── OrderService.java
+│   │   │           │   └── MatchingEngineService.java
+│   │   │           │
+│   │   │           ├── repository/
+│   │   │           │   ├── OrderRepository.java
+│   │   │           │   └── TradeRepository.java
+│   │   │           │
+│   │   │           ├── entity/
+│   │   │           │   ├── Order.java
+│   │   │           │   └── Trade.java
+│   │   │           │
+│   │   │           └── dto/
+│   │   │               ├── OrderRequest.java
+│   │   │               └── TradeResponse.java
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── data.sql
+│   │
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── tradingengine/
+│                   └── OrderServiceTest.java
+│
+├── .gitignore
+├── README.md
+├── pom.xml
+└── mvnw
